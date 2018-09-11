@@ -1,23 +1,4 @@
-const INITIAL_VALUE = {
-  description: 'Ler livro',
-  list: [
-    {
-      _id: 1,
-      description: 'Pagar fatura do cartão',
-      done: true
-    }, 
-    {
-      _id: 2,
-      description: 'Reunião com a equipe às 10:00',
-      done: false
-    }, 
-    {
-      _id: 3,
-      description: 'Consulta médica terça depois do almoço',
-      done: false
-    }
-  ]
-}
+const INITIAL_VALUE = { description: '', list: []}
 
 export default (state = INITIAL_VALUE, action) => {
   switch(action.type) {
